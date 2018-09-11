@@ -1,6 +1,7 @@
 const Datastore = require('nedb')
-  , dbName = 'data.db'
-  , db;
+  , dbName = 'data.db';
+
+let db;
 
 if (!db) {
   db = new Datastore({
